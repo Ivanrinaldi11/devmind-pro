@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>DevMind PRO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>DevMind PRO</h1>
+    <p class="subtitle">Descubra seu Nível Real no Mercado Tech</p>
+
+    <form id="form">
+
+      <div class="question">
+        <label>Você sabe consumir API com fetch?</label>
+        <select name="api">
+          <option value="0">Não</option>
+          <option value="10">Sim</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>Sabe usar Git e GitHub?</label>
+        <select name="git">
+          <option value="0">Não</option>
+          <option value="10">Sim</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>Já fez deploy de projeto?</label>
+        <select name="deploy">
+          <option value="0">Não</option>
+          <option value="10">Sim</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>Sabe manipular DOM?</label>
+        <select name="dom">
+          <option value="0">Não</option>
+          <option value="10">Sim</option>
+        </select>
+      </div>
+
+      <div class="question">
+        <label>Conhece banco de dados?</label>
+        <select name="bd">
+          <option value="0">Não</option>
+          <option value="10">Sim</option>
+        </select>
+      </div>
+
+      <button type="submit">Analisar Perfil</button>
+
+    </form>
+
+    <div id="resultado" class="hidden">
+      <h2 id="nivel"></h2>
+      <p id="score"></p>
+      <canvas id="grafico"></canvas>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
