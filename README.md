@@ -2,7 +2,7 @@
 
 DevMind PRO é uma aplicação web que analisa o nível de prontidão de um desenvolvedor para o mercado tech, calculando um índice de empregabilidade com base em habilidades técnicas essenciais.
 
- Projeto Online: https://SEUUSUARIO.github.io/devmind-pro/
+ Projeto Online:  https://ivanrinaldi11.github.io/devmind-pro/
 
 ---
 
